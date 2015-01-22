@@ -40,6 +40,15 @@ public class MainActivity extends ActionBarActivity {
 				
 			}
 		});
+
+		btn3.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				layout.setOrientation(LinearLayout.VERTICAL);
+				
+			}
+		});
     }
 
 
